@@ -1,0 +1,159 @@
+.subscribe-button {
+background-color: rgb(204, 0, 0);
+color: white;
+border: none;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 16px;
+padding-left: 16px;
+border-radius: 2px;
+cursor: pointer; 
+margin-right: 12px;
+transition: opacity 0.15s;
+vertical-align: top;
+margin-bottom: 12px;
+  }
+
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+
+.subscribe-button:active {
+ opacity: 0.4;
+}
+  
+  
+
+.join-button {
+  color: rgb(6, 95, 212);
+  background-color: white;
+  border: 0.8px solid rgb(6, 95, 212);
+  border-radius: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  cursor: pointer;
+  transition: background-color 1s, color 1s;
+  margin-right: 12px;
+}
+
+.join-button:hover {
+ background-color: rgb(6, 95, 212) ;
+ color: white; 
+}
+
+.join-button:active {
+  opacity: 0.7;
+}
+
+  
+.tweet-button {
+  color: white;
+  background-color: rgb(29, 155, 240);
+  border: none;
+  border-radius: 20px;
+ padding-top: 7px;
+ padding-bottom: 7px;
+ padding-right: 16px;
+ padding-left: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+ 
+}
+ 
+
+.tweet-button:hover {
+ box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+ 
+  .back-button {
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+  }
+
+  .search-result {
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 18px;
+  }
+
+  .next-button {
+    margin-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+  }
+
+  .stretch-button {
+   color: white;
+    background-color: rgb(10, 125, 2);
+    border: none;
+    margin-top: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 16px;
+    transition: padding 1s;
+    
+  }
+
+  .stretch-button:hover {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+   
+  }
+
+
+  .shadow-button {
+   color: white;
+    background-color: rgb(10, 125, 2);
+    border: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 16px;
+   box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+
+  }
+
+
+  .shadow-button:active {
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+  }
+
+  .margin-button {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: padding 0.15s,
+      margin 0.15s;
+  }
+
+  .margin-button:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
