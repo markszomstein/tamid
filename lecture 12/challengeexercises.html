@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Lecture 12 Exercises
+    </title>
+
+    <style>
+.container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  width: 280px;
+  border-radius: 8px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.notifications {
+  background-color: rgb(45, 96, 215);
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.header {
+  background-color: rgb(119, 88, 166);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.home-link {
+  font-weight: bold;
+}
+
+.text-box {
+  width: 500px;
+  border: none;
+   height: 30px;
+  border-radius: 15px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  
+ 
+}
+
+button {
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 2px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 13px;
+  padding-right: 13px;
+  background-color: rgb(120, 82, 178);
+  color: white;
+  font-size: 15px;
+  
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+ 
+  
+}
+
+.info {
+  width: 200px;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.handle {
+  color: rgb(120, 120, 120);
+  margin-bottom: 4px;
+}
+
+.category {
+  color: rgb(120, 120, 120);
+  font-size: 14px;
+}
+
+.follow-button {
+  background-color: rgb(39, 153, 228);
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  
+  cursor: pointer;
+}
+
+
+    </style>
+  </head>
+
+  <body>
+  <div style="display: flex; flex-direction: row;">
+    <div style="background-color: lightblue; width: 200px;">flex1</div>
+    <div style="background-color: lightpink; width: 75px;">100px</div>
+  </div>
+
+  <div style="display: flex; flex-direction: row;">
+    <div style="background-color: lightblue; width: 50px;">item1</div>
+    <div style="background-color: lightpink; flex: 1;">item2</div>
+    <div style="background-color: lightblue; width: 75px;">item3</div>
+  </div>
+
+  <div style="display: flex; flex-direction: row; justify-content: space-between;">
+    <div style="background-color: lightblue; width: 50px;">item1</div>
+    <div style="background-color: lightpink; width: 50px;">item2</div>
+    <div style="background-color: lightblue; width: 50px;">item3</div>
+    <div style="background-color: lightpink; width: 50px;">item4</div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; border: 1px solid gray; height: 50px;">
+  <div style="display: flex; justify-content: space-between; align-items: center; border: 1px solid gray; height: 50px; padding: 0 10px;">
+    <div style="background-color: lightblue; width: 50px;">item1</div>
+    <div style="background-color: lightpink; width: 50px;">item2</div>
+</div>
+
+</div>
+ <div class="container">
+      <div class="flexbox">
+        <div>Home</div>
+        <div class="notifications">14</div>
+      </div>
+      <div class="flexbox">
+        <div>Notifications</div>
+        <div class="notifications">3</div>
+      </div>
+      <div class="flexbox">
+        <div>Messages</div>
+        <div class="notifications">5</div>
+      </div>
+    </div>
+  <div class="header">
+      <div class="home-link">Home</div>
+      <input class="text-box" placeholder="Search">
+      <button>Download</button>
+    </div>
+   <div class="row">
+      <img class="profile-picture" src="thumbnails/cat.jpg">
+      <div class="info">
+        <p class="name">oliver</p>
+        <p class="handle">the cat</p>
+        <p class="category">Popular</p>
+      </div>
+      <button class="follow-button">Follow</button>
+    </div>
+
+    <div class="row">
+      <img class="profile-picture" src="thumbnails/cat.jpg">
+      <div class="info">
+        <p class="name">Mimi</p>
+        <p class="handle">Sleepy Cat</p>
+        <p class="category">Popular</p>
+      </div>
+      <button class="follow-button">Follow</button>
+    </div>
+
+    <div class="row">
+      <img class="profile-picture" src="thumbnails/cat.jpg">
+      <div class="info">
+        <p class="name">Rex</p>
+        <p class="handle">Happy Bulldog</p>
+        <p class="category">Popular</p>
+      </div>
+      <button class="follow-button">Follow</button>
+    </div>
+
+
+</body>
+
+
+
+</html>
